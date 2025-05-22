@@ -8,7 +8,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   // TODO: buscar do seu "store" ou do n8n
-  const messages = [
+  const messages: any[] = [
     // { id: "1", text: "Olá, em que posso ajudar?", from: "bot" }
   ];
   res.status(200).json(messages);
